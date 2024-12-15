@@ -9,8 +9,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Code
         uses: actions/checkout@v2
+
+      - name: Debugging
+        run: |
+          echo "Debugging environment..."
+          ls -la
+          uname -a
 
       - name: Generate Snake Animation
         run: |
@@ -19,16 +25,10 @@ jobs:
           npm install
           npm run build -- --user tomygoldboimel --output ../dist
 
-      - name: Push changes
+      - name: Push Changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add dist
           git commit -m "Update snake animation"
           git push origin main
-
-      - name: Deploy to GitHub Pages
-        run: |
-          mkdir -p dist
-          mv github-contribution-grid-snake* dist/
-          echo "Deployment complete"
