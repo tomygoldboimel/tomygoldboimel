@@ -15,3 +15,7 @@
  ---------
   ***Contato***: <br>
   - [LinkedIn](https://www.linkedin.com/in/tomyboimel/)  <img align="center" height="20" width="20" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
+
+
+![snake gif](https://github.com/tomygoldboimel/tomygoldboimel/blob/output/github-contribution-grid-snake-dark.svg)
+[![readme](https://github-readme-stats.vercel.app/api/pin/?username=tomygoldboimel&repo=tomygoldboimel&theme=react)](https://github.com/tomygoldboimel/tomygoldboimel)
