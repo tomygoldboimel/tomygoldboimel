@@ -3,7 +3,7 @@
   **`Desenvolvedor Full Stack`** <br>
   
   Estudante de **Bacharelado em Ciência da Computação** na **Universidade Presbiteriana Mackenzie (UPM)**<br>
-  Estagiário na **COBRAPE**<br>
+  Estagiário na **BRISA - Sociedade para o Desenvolvimento da Tecnologia da Informação**<br>
 
 <h3>Tecnologias</h3>
 
